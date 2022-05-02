@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP は、 AWS で従量課金制またはライセン�
 ---
 = AWS でサポートされる構成
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP は、従量課金制またはライセンス使用
 ---
 = Azure でサポートされる構成
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

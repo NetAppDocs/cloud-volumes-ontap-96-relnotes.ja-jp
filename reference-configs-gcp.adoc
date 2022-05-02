@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP は、シングルノードシステムとして Go
 ---
 = Google Cloud でサポートされている構成
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
