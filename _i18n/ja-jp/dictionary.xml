@@ -40,9 +40,7 @@
   <block id="61dcfaac24363a16e4b318c1317f0309" category="cell">368TiB</block>
   <block id="b650b6a0e30782e5c59c3db6f2644347" category="cell">BYOL</block>
   <block id="7751129b8546a0da65fb379b1cc9c243" category="cell">1 ライセンスあたり 368 TiB</block>
-  <block id="2f9882645b2c32820ad085240bacb763" category="section-title">HA の場合、ライセンスの容量制限はノード単位か、 HA ペア全体に適用されるか</block>
   <block id="44007958b04e5e15a25a3ca1ee98abeb" category="paragraph">容量制限は HA ペア全体の容量制限です。ノード単位ではありません。たとえば、 Premium ライセンスを使用する場合、両方のノード間で最大 368 TiB の容量を確保できます。</block>
-  <block id="fc9a388cd18c69244f22554de6f0d544" category="section-title">AWS の HA システムでは、ミラーリングされたデータは容量制限にカウントされますか。</block>
   <block id="8644b747d80d3144a35c2f7a3eb37c2e" category="paragraph">いいえ、できません。AWS HA ペアのデータは、障害発生時にデータを利用できるように、ノード間で同期的にミラーされます。たとえば、ノード A で 8TiB ディスクを購入した場合、 Cloud Manager は、ミラーリングされたデータに使用する 8 TiB のディスクをノード B にも割り当てます。16TiB の容量がプロビジョニングされましたが、ライセンスの上限には 8TiB しかカウントされません。</block>
   <block id="c029ebf0cab0f40812ebec7c644fef41" category="section-title">ディスクおよび階層化の制限は EC2 インスタンスごとに適用されます</block>
   <block id="64902ebf86d86e0c5dfcc29138584b73" category="paragraph">Cloud Volumes ONTAP は EBS ボリュームをディスクとして使用し、最大ディスクサイズは 16TiB です。以下のセクションでは、 EC2 インスタンスタイプごとにディスクと階層化の制限を示します。これは、多くの EC2 インスタンスタイプでディスクの制限が異なるためです。また、シングルノードシステムと HA ペアではディスク制限も異なります。</block>
@@ -288,7 +286,6 @@
   <block id="d302a39827e370146d2861389e98e60c" category="section-title">中国地域でのサポート</block>
   <block id="da059bd73f7531380888607adbbd03aa" category="paragraph">Cloud Volumes ONTAP は中国で次のようにサポートされています。</block>
   <block id="cbf02fb0cb394b4b19fb0788f9b62554" category="list-text">Cloud Volumes ONTAP 9.6 は、 AWS 中国のリージョンでサポートされます。</block>
-  <block id="a24849df7617212f16203f6f4b4bf5e2" category="list-text">Cloud Volumes ONTAP 9.9 は、 Azure 中国地域でサポートされます。</block>
   <block id="fcf30aaa0348521d4d4752992c9db378" category="list-text">シングルノードシステムがサポートされます。</block>
   <block id="80a79e3e92d4834ae8746d205e83c105" category="list-text">ネットアップから直接購入したライセンスはサポートされます。</block>
   <block id="a5a1e4029969159a5f8fdeddd3fb7e1b" category="paragraph">その他の場所、バージョン、構成、ライセンスはすべてサポートされていません。</block>
@@ -471,8 +468,6 @@
   <block id="5eea1e25ada5f639be60cd3747453706" category="admonition">一部の VM タイプでは、次に示す最大システム容量に到達するために複数の BYOL ライセンスが必要です。たとえば、 DS5_v2 で 2 PiB に到達するには 6 つの BYOL ライセンスが必要です。</block>
   <block id="9bf31c7ff062936a96d3c8bd1f8f2ff3" category="cell">15</block>
   <block id="caa04f6c0c961ead7ba1a22b65f58bb8" category="cell">480TiB</block>
-  <block id="cfd3d7471481ba0d3a23470409857d68" category="cell">992TiB</block>
-  <block id="9010e525ec80d0fdea3d56191f64ce39" category="cell">2 PiB</block>
   <block id="7d77a94398a1ae91747e4416328465b2" category="cell">HA ペア用の MAX Data ディスク</block>
   <block id="cace811ae2287679ba0f4404384f7d4a" category="cell">248TiB</block>
   <block id="2a89dad2f01452e56c98b1118448e1f1" category="cell">504TiB</block>
@@ -488,7 +483,6 @@
   <block id="398d7dd4fa02e30dc6322ad98eff7d2b" category="paragraph">ONTAP ソフトウェアの既知の問題は、で確認できます<block ref="13c0668cefb5d13050e1de01793dacbb" category="inline-link-rx"></block>。</block>
   <block id="a9f27c00250c46c26cb8db62812585a9" category="summary">このリリースノートでは、 Cloud Volumes ONTAP 9.6 の新機能、制限事項、および既知の問題について説明します。</block>
   <block id="001a55affa5f48701656447cc466491a" category="doc">Cloud Volumes ONTAP 9.6 リリースノート</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
   <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">リリースノートのホーム</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="1f0b82560627b660c6c6958a1df834b8" category="sidebar">サポートされている構成</block>
@@ -511,4 +505,5 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP クラウド</block>
+  <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896TiB</block>
 </blocks>
