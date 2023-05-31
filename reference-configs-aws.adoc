@@ -93,7 +93,7 @@ Cloud Volumes ONTAP は、フォールトトレランスとノンストップオ
 . Cloud Volumes ONTAP 9.6 P3 以降では、 c5d.18 x large および m5d.8xlarge がサポートされます。
 . SSD を Cloud Volumes ONTAP Standard 、 Premium 、および BYOL とともに使用すると、書き込みパフォーマンスが向上します。
 . GP3 SSD はサポートされていません。
-. 一部の HA 構成では、ディスク制限により、ディスクのみを使用して 368 TiB の容量制限に達することができません。このような場合は、で 368 TiB の容量制限に達することができます https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。ディスクの制限については、を参照してください link:reference-limits-aws.html["ストレージの制限"]。
+. 一部の HA 構成では、ディスク制限により、ディスクのみを使用して 368 TiB の容量制限に達することができません。このような場合は、で 368 TiB の容量制限に達することができます https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。ディスクの制限については、を参照してください link:reference-limits-aws.html["ストレージの制限"]。
 . AWS リージョンのサポートについては、を参照してください https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
 
 

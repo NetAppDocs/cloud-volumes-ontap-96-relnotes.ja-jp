@@ -30,7 +30,7 @@ Cloud Volumes ONTAP は、シングルノードシステムとして Google Clou
 * PAYGO から BYOL への変換は現在サポートされていません。
 * 基本的なテクニカルサポートが提供されますが、ご使用のシステムに関連付けられたネットアップのシリアル番号を登録して有効化する必要があります。
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-registering.html["Cloud Manager で従量課金制システムを登録"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-registering.html["Cloud Manager で従量課金制システムを登録"^]
 
 
 
@@ -77,7 +77,7 @@ Cloud Volumes ONTAP は、シングルノードシステムとして Google Clou
 
 . カスタムマシンタイプには、 vCPU 4 個と 16GB のメモリがあります。標準マシンタイプの詳細については、を参照してください https://cloud.google.com/compute/docs/machine-types#standard_machine_types["Google Cloud のドキュメント：「 Machine Types"^]。
 . SSD の使用時には書き込みパフォーマンスの向上が実現します。
-. ディスク制限を使用すると、ディスクだけを使用して 368 TB の容量制限に達することができません。を使用すると、 368 TB の容量制限に達することができます https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。
+. ディスク制限を使用すると、ディスクだけを使用して 368 TB の容量制限に達することができません。を使用すると、 368 TB の容量制限に達することができます https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。
 +
 link:reference-limits-gcp.html["Google Cloud のディスク制限について詳しくは、こちらをご覧ください"]。
 
