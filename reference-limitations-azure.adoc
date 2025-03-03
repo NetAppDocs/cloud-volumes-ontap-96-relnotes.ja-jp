@@ -37,6 +37,6 @@ Cloud Volumes ONTAP 9.6 の新規導入は Azure でサポートされなくな�
 * NFSv4 はサポートされていません。NFSv3 がサポートされています。
 * 一部のリージョンでは HA ペアがサポートされません。
 +
-https://cloud.netapp.com/cloud-volumes-global-regions["サポートされる Azure リージョンの一覧を参照してください"^]
+https://bluexp.netapp.com/cloud-volumes-global-regions["サポートされる Azure リージョンの一覧を参照してください"^]
 
 

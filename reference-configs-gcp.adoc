@@ -81,7 +81,7 @@ Cloud Volumes ONTAP は、シングルノードシステムとして Google Clou
 +
 link:reference-limits-gcp.html["Google Cloud のディスク制限について詳しくは、こちらをご覧ください"]。
 
-. Google Cloud Platform リージョンのサポートについては、を参照してください https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
+. Google Cloud Platformリージョンのサポートについては、を参照してください https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
 
 
 
