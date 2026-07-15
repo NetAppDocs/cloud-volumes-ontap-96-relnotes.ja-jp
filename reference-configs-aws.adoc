@@ -18,6 +18,7 @@ Cloud Volumes ONTAP は、従量課金制とお客様所有のライセンス（
 
 
 
+[[supported-configurations-by-license]]
 == ライセンスでサポートされている構成
 
 Cloud Volumes ONTAP は、フォールトトレランスとノンストップオペレーションを実現するために、 AWS ではシングルノードシステムとして、ハイアベイラビリティ（ HA ）ペアのノードとして利用できます。
@@ -99,6 +100,7 @@ Cloud Volumes ONTAP は、フォールトトレランスとノンストップオ
 
 
 
+[[supported-disk-sizes]]
 == サポートされるディスクサイズ
 
 AWS では、アグリゲートに同じタイプおよびサイズのディスクを最大 6 本含めることができます。

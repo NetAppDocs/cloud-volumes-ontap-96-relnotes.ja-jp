@@ -18,6 +18,7 @@ Cloud Volumes ONTAP には、安定した運用を実現するために、スト
 
 
 
+[[maximum-system-capacity-by-license]]
 == ライセンス別の最大システム容量
 
 Cloud Volumes ONTAP システムの最大システム容量はライセンスで決まります。最大システム容量には、ディスクベースのストレージに加えて、データの階層化に使用されるオブジェクトストレージが含まれます。ネットアップはこの制限を超えてもサポートしていません。
@@ -42,6 +43,7 @@ Premium ライセンスおよび BYOL ライセンスの場合、ディスク制
 |===
 
 
+[[disk-and-tiering-limits]]
 == ディスクと階層化の制限
 
 次の表に、ディスクのみの場合の最大システム容量と、オブジェクトストレージへのディスクおよびコールドデータの階層化を示します。ディスク制限はユーザデータが格納されたディスクに固有です。この制限には、ブートディスクとルートディスクは含まれていません。
@@ -68,6 +70,7 @@ Premium ライセンスおよび BYOL ライセンスの場合、ディスク制
 |===
 
 
+[[aggregate-limits]]
 == アグリゲートの制限
 
 Cloud Volumes ONTAP は、 Google Cloud Platform のディスクを _Aggregate_. にグループ化します。アグリゲートは、ボリュームにストレージを提供します。
@@ -96,6 +99,7 @@ Cloud Volumes ONTAP は、 Google Cloud Platform のディスクを _Aggregate_.
 
 
 
+[[logical-storage-limits]]
 == 論理ストレージの制限
 
 [cols="22,22,56"]
@@ -142,6 +146,7 @@ Cloud Volumes ONTAP は、 Google Cloud Platform のディスクを _Aggregate_.
 
 
 
+[[iscsi-storage-limits]]
 == iSCSI ストレージの制限
 
 [cols="3*"]
